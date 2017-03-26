@@ -20,7 +20,8 @@ int main()
 {
     int b, p ,m;
     while(cin >> b >> p >> m)
+    {
         cout << bigMod(b, p, m) << "\n";
-
+    }
     return 0;
 }

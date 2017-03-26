@@ -41,7 +41,9 @@ int main()
         }
 
         if (counter > 1)
+        {
             cout << endl;
+        }
 
         for (i = 0; i < p; i++)
         {
@@ -49,6 +51,5 @@ int main()
         }
         counter++;
     }
-
     return 0;
 }

@@ -28,7 +28,6 @@ int main()
             {
                 cout << s[i];
             }
-
         }
         cout << "\n";
     }

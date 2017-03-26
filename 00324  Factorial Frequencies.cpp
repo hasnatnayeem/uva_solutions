@@ -56,8 +56,7 @@ int main()
         cout << num << "! --\n";
         for (i = 0; i < 10; i++)
         {
-           cout << setw(5) << "(" << i << ")"
-                << setw(5) << counter[i];
+           cout << setw(5) << "(" << i << ")" << setw(5) << counter[i];
            if (i == 4 || i == 9) cout << endl;
         }
     }
